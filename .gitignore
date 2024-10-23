@@ -1,0 +1,56 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Build directories
+/build/
+/cmake-build-*/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# IDE-specific
+.idea/
+.vscode/
+*.iml
+
+# Visual Studio files
+*.vcxproj
+*.sln
+*.vcxproj.user
+*.vcxproj.filters
+
+# MacOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Backup or temporary files
+*~
+*.swp
+*.swo
+
+# Conan and vcpkg package manager files
+conanbuildinfo.txt
+conanbuildinfo.cmake
+conan.lock
+installed/
+packages/
+buildtrees/
+
+# Documentation
+/doc/html/
+/doc/latex/
