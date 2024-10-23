@@ -7,7 +7,6 @@
 *.so
 *.dylib
 *.a
-*.lib
 
 # Build directories
 /build/
